@@ -1,0 +1,1 @@
+const t={key:"v-6d34f632",path:"/contact.html",title:"Contact",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648974005e3,contributors:[{name:"Ajilal Vijayan",email:"ajilalv@gmail.com",commits:1}]},filePathRelative:"contact.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-1d1f50b7",path:"/apps/myxrefs/versions.html",title:"Versions",lang:"en-US",frontmatter:{title:"Versions"},excerpt:"",headers:[{level:3,title:"Version History",slug:"version-history",children:[]}],git:{updatedTime:1648974005e3,contributors:[{name:"Ajilal Vijayan",email:"ajilalv@gmail.com",commits:1}]},filePathRelative:"apps/myxrefs/versions.md"};export{e as data};

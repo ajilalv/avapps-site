@@ -1,0 +1,1 @@
+const a={key:"v-08eb506c",path:"/privacy.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Apps privacy policy",slug:"apps-privacy-policy",children:[]}],git:{updatedTime:1648974005e3,contributors:[{name:"Ajilal Vijayan",email:"ajilalv@gmail.com",commits:1}]},filePathRelative:"privacy.md"};export{a as data};

@@ -1,0 +1,1 @@
+const e={key:"v-3a4f35c7",path:"/apps/myxrefs/",title:"My Xrefs",lang:"en-US",frontmatter:{title:"My Xrefs"},excerpt:"",headers:[{level:3,title:"My Xrefs",slug:"my-xrefs",children:[]}],git:{updatedTime:1648974005e3,contributors:[{name:"Ajilal Vijayan",email:"ajilalv@gmail.com",commits:1}]},filePathRelative:"apps/myxrefs/README.md"};export{e as data};

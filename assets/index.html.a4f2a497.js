@@ -1,0 +1,1 @@
+const e={key:"v-fcc342f0",path:"/apps/purge/",title:"Drawing Purge",lang:"en-US",frontmatter:{title:"Drawing Purge"},excerpt:"",headers:[{level:3,title:"Drawing Purge",slug:"drawing-purge",children:[]}],git:{updatedTime:1648974005e3,contributors:[{name:"Ajilal Vijayan",email:"ajilalv@gmail.com",commits:1}]},filePathRelative:"apps/purge/README.md"};export{e as data};

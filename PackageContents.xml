@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" ProductType="Application" Name="My Xrefs" AppVersion="3.3.0" Description="Attach xref's easily by saving the xref details in a database" Author="Ajilal Vijayan" Icon="./Contents/Resources/icon.ico" AppNameSpace="appstore.exchange.autodesk.com" HelpFile="./Contents/help.html" ProductCode="{19E54CA5-910D-4E7C-BB9D-9DCC3BAA1DA4}" UpgradeCode="{4B0F027D-E264-4B38-90E4-1C26A806051B}" FriendlyVersion="3.3.0" SupportedLocales="Enu" OnlineDocumentation="sites.google.com/site/avcadapps/">
+  <CompanyDetails Name="Ajilal Vijayan" Email="ajilalv@gmail.com" Url="sites.google.com/site/avcadapps/" Phone=" " />
+  <Components Description="AutoCAD 2012 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="AutoCAD" SeriesMin="R18.2" SeriesMax="R18.2" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2012/SQLiteLsp18x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2012/AVVA_MyXrefs-2012.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2012 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="AutoCAD" SeriesMin="R18.2" SeriesMax="R18.2" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2012/SQLiteLsp18x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2012/AVVA_MyXrefs-2012.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2013/2014 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R19.0" SeriesMax="R19.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2014/SQLiteLsp19x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2014/AVVA_MyXrefs-2014.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2013/2014 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R19.0" SeriesMax="R19.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2014/SQLiteLsp19x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2014/AVVA_MyXrefs-2014.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2015 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R20.0" SeriesMax="R20.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2015/SQLiteLsp20x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2015/AVVA_MyXrefs-2015.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2015 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R20.0" SeriesMax="R20.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2015/SQLiteLsp20x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2015/AVVA_MyXrefs-2015.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2016 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R20.1" SeriesMax="R20.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2016/SQLiteLsp20x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2016/AVVA_MyXrefs-2016.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2016 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R20.1" SeriesMax="R20.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2016/SQLiteLsp20x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2016/AVVA_MyXrefs-2016.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2017 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R21.0" SeriesMax="R21.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2017/SQLiteLsp21x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2017/AVVA_MyXrefs-2017.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2017 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R21.0" SeriesMax="R21.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2017/SQLiteLsp21x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2017/AVVA_MyXrefs-2017.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2018 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R22.0" SeriesMax="R22.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2018/SQLiteLsp22x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2018/AVVA_MyXrefs-2018.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2018 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R22.0" SeriesMax="R22.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2018/SQLiteLsp22x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2018/AVVA_MyXrefs-2018.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2019 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R23.0" SeriesMax="R23.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2019/SQLiteLsp22x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2019/AVVA_MyXrefs-2019.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2019 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R23.0" SeriesMax="R23.0" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2020/SQLiteLsp23x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2019/AVVA_MyXrefs-2019.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2020 32 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R23.1" SeriesMax="R23.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2020/SQLiteLsp23x32.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2020/AVVA_MyXrefs-2020.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2020 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R23.1" SeriesMax="R23.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2020/SQLiteLsp23x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2020/AVVA_MyXrefs-2020.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+  <Components Description="AutoCAD 2021 64 bit">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="ACADE|ADT|Civil3D|MEP|AutoCAD|ACADM" SeriesMin="R24.1" SeriesMax="R24.1" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2XXX/AVVA_My-Xrefs.VLX" AppDescription="My Xref main function" PerDocument="True" LoadOnAutoCADStartup="True">
+      <Commands>
+        <Command Local="My-Xrefs" Global="My-Xrefs" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Resources/AVVA_MyXrefs.cuix" AppDescription="Ribbon" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2021/SQLiteLsp24x64.arx" AppDescription="SQLiteLsp Functions" LoadOnAutoCADStartup="True" />
+    <ComponentEntry AppName="My Xrefs" Version="3.3.0" ModuleName="./Contents/Windows/2021/AVVA_MyXrefs-2021.dll" AppDescription="Xref file browse dialog functions" LoadOnAutoCADStartup="True" />
+  </Components>
+</ApplicationPackage>

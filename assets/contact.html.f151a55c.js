@@ -1,0 +1,1 @@
+import{_ as a,o as e,c,F as o,a as t,b as n}from"./app.7cb06e9d.js";const r={},s=t("h1",{id:"contact",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#contact","aria-hidden":"true"},"#"),n(" Contact")],-1),_=t("p",null,"ajilalv at gmail dot com",-1);function l(d,i){return e(),c(o,null,[s,_],64)}var m=a(r,[["render",l],["__file","contact.html.vue"]]);export{m as default};
